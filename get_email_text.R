@@ -50,7 +50,7 @@ if(length(eredmeny[coinname%in%regi_adat$coinname==F,]$coinname)!=0){
 }
 
 write.csv(eredmeny, "/home/mihaly/R_codes/new_crypto_trade/coinok_lista.csv", row.names = F)
-
+print(Sys.time())
 
 
 
